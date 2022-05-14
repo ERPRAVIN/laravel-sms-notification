@@ -10,7 +10,7 @@ class NotificationController extends Controller
         // $basic  = new \Vonage\Client\Credentials\Basic('Nexmo key', 'Nexmo secret');
 
         
-        $basic  = new \Vonage\Client\Credentials\Basic("4e394b44", "NdzFte17DLgqsOH8");
+        $basic  = new \Vonage\Client\Credentials\Basic("Nexmo key", "Nexmo secret");
         $client = new \Vonage\Client($basic);
 
         $response = $client->sms()->send(
